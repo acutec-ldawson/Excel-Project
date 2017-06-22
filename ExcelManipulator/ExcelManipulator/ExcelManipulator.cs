@@ -12,10 +12,13 @@ namespace ExcelManipulator
 {
     public class ExcelReader
     {
-
+        Microsoft.Office.Interop.Excel.Application excel = new Microsoft.Office.Interop.Excel.Application();
+        Microsoft.Office.Interop.Excel.Workbook workbook = null;
         string filePath = "";
         public ExcelReader(string _filePath) {
             filePath = _filePath;
+            setDisplay();
+            workbook = excel.Workbooks.Open(filePath, ReadOnly: true);
         }
         public void SetFile(string _filePath)
         {
@@ -32,21 +35,18 @@ namespace ExcelManipulator
                 //Can't access Excel
             }
             else {
-                Microsoft.Office.Interop.Excel.Application app = new Microsoft.Office.Interop.Excel.Application();
-
-                app.DisplayAlerts = false;
-
-                Microsoft.Office.Interop.Excel.Workbook workbook = app.Workbooks.Open(filePath);
+                
                 foreach (Worksheet sheet in workbook.Sheets)
                 {
                     string csvFile = Path.ChangeExtension(filePath, "_"+sheet.Name+".csv");
                     sheet.SaveAs(csvFile, Microsoft.Office.Interop.Excel.XlFileFormat.xlCSV);
+                    System.Runtime.InteropServices.Marshal.ReleaseComObject(sheet);
                 }
-
-                workbook.Close();
-                app.Quit();
             }
         }
+        /*
+         *  
+         */
         /// <summary>
         /// Searches the filepath excel document and returns a list of all the cells that contained the flag string
         /// This allows the user to quickly develope a list of all the cells that the user will need to pull values from
@@ -56,9 +56,8 @@ namespace ExcelManipulator
         /// <returns></returns>
         public iVector2[] findCells(string worksheet, string flag) {
             List<iVector2> cellList = new List<iVector2>();
-            Application excel = new Application();
-            Workbook wb = excel.Workbooks.Open(filePath);
             Worksheet sheet = GetSheet(worksheet);
+
             foreach (Range cell in sheet.UsedRange) {
                 try
                 {
@@ -70,62 +69,56 @@ namespace ExcelManipulator
                 }
                 catch (Exception e) { }
             }
-            wb.Close();
-            excel.Quit();
-
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(sheet);
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(wb);
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(excel);
             return cellList.ToArray();
         }
         private Worksheet GetSheet(string sheetName) {
             Worksheet get = null;
-            Application excel = new Application();
-            Workbook wb = excel.Workbooks.Open(filePath);
-            foreach (Worksheet sheet in wb.Sheets) {
+
+            foreach (Worksheet sheet in workbook.Sheets) {
                 if (sheet.Name == sheetName) {
                     get = sheet;
                 }
             }
-            return get;
+            try
+            {
+                return get;
+            }
+            finally {
+            }
         }
         public Cell[] captureCells(iVector2[] coordinates, string worksheet) {
             List<Cell> Table = new List<Cell>();
-            Application excel = new Application();
-            Workbook wb = excel.Workbooks.Open(filePath);
             Worksheet sheet = GetSheet(worksheet);
+
             foreach (iVector2 dir in coordinates) {
                 Range r = sheet.UsedRange.Cells[dir.x, dir.y];
                 Cell c = new Cell(dir, r.Value);
                 Table.Add(c);
             }
-            wb.Close();
-            excel.Quit();
-
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(sheet);
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(wb);
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(excel);
             return Table.ToArray();
         }
         public string[] printCells(iVector2[] coordinates, string worksheet) {
             List<string> Stuff = new List<string>();
-            Application excel = new Application();
-            Workbook wb = excel.Workbooks.Open(filePath);
             Worksheet sheet = GetSheet(worksheet);
+
             foreach (iVector2 dir in coordinates)
             {
                 Range r = sheet.UsedRange.Cells[dir.x, dir.y];
                 Cell c = new Cell(dir, r.Value);
                 Stuff.Add(c.stringValue);
             }
-
-            wb.Close();
-            excel.Quit();
-
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(sheet);
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(wb);
-            System.Runtime.InteropServices.Marshal.ReleaseComObject(excel);
             return Stuff.ToArray();
+        }
+        public void Close() {
+            workbook.Close();
+            excel.Quit();
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(excel);
+        }
+        public void setDisplay() {
+            excel.Visible = false;
+            excel.DisplayAlerts = false;
+            excel.EnableEvents = false;
         }
     }
     public class Cell{
@@ -158,7 +151,7 @@ namespace ExcelManipulator
         }
         public override string ToString()
         {
-            return String.Format("(x:{0},y:{1})",x.ToString(),y.ToString());
+            return String.Format("{0},{1}",x.ToString(),y.ToString());
         }
     }
 }
