@@ -1,0 +1,334 @@
+ID,Area,Header,Group,Description,Value
+1,0.Preliminary,Organization,N/A,Organization,Acutec
+2,0.Preliminary,Customer,N/A,Customer,0
+3,0.Preliminary,ACUTEC Notification #,N/A,ACUTEC Notification #,0
+4,0.Preliminary,Customer's Complaint #,N/A,Customer's Complaint #,N/A
+5,0.Preliminary,ACUTEC Part/Material# or Process,N/A,ACUTEC Part/Material# or Process,0
+6,0.Preliminary,Customer's Part/Material #,N/A,Customer's Part/Material #,0
+7,0.Preliminary,ACUTEC Lot # or Batch #,N/A,ACUTEC Lot # or Batch #,0
+8,0.Preliminary,"Affected Serial #s, if applicable",N/A,"Affected Serial #s, if applicable",N/A
+9,0.Preliminary,Date of Occurrence/Complaint,N/A,Date of Occurrence/Complaint,1/0/1900
+10,0.Preliminary,Required Response Date,N/A,Required Response Date,1/0/1900
+11,0.Preliminary,Revised CA Response Date,N/A,Revised CA Response Date,1/0/1900
+12,0.Preliminary,Purchase Order/Work Order #,N/A,Purchase Order/Work Order #,1/0/1900
+13,0.Preliminary,Quantity Rejected,N/A,Quantity Rejected,1/0/1900
+14,0.Preliminary,Cure Date,N/A,Cure Date,N/A
+15,1.Define the problem,IS Complete,N/A,IS Complete,FALSE
+16,1.Define the problem,IS N/A,N/A,IS N/A,FALSE
+17,1.Define the problem,Project Title/Theme,N/A,Project Title/Theme,0
+18,1.Define the problem,Clarify the Problem,N/A,Where was the nonconformance discovered?,ACUTEC Customer
+19,1.Define the problem,Historical Data,N/A,Is this a repeat issue?,Unknown
+20,1.Define the problem,Describe the Problem,N/A,Requirement,0
+21,1.Define the problem,Describe the Problem,N/A,Nonconformance,0
+22,1.Define the problem,Describe the Problem,N/A,Objective Evidence,0
+23,2.Identify the team,Name,Team Leader,Name,0
+24,2.Identify the team,Title,Team Leader,Title,0
+25,2.Identify the team,Organization,Team Leader,Organization,0
+26,2.Identify the team,Contact Info,Team Leader,Contact Info,0
+27,2.Identify the team,Name,Team Member 1,Name,0
+28,2.Identify the team,Title,Team Member 1,Title,0
+29,2.Identify the team,Organization,Team Member 1,Organization,0
+30,2.Identify the team,Contact Info,Team Member 1,Contact Info,0
+31,2.Identify the team,Name,Team Member 2,Name,0
+32,2.Identify the team,Title,Team Member 2,Title,0
+33,2.Identify the team,Organization,Team Member 2,Organization,0
+34,2.Identify the team,Contact Info,Team Member 2,Contact Info,0
+35,2.Identify the team,Name,Team Member 3,Name,0
+36,2.Identify the team,Title,Team Member 3,Title,0
+37,2.Identify the team,Organization,Team Member 3,Organization,0
+38,2.Identify the team,Contact Info,Team Member 3,Contact Info,0
+39,2.Identify the team,Name,Team Member 4,Name,0
+40,2.Identify the team,Title,Team Member 4,Title,0
+41,2.Identify the team,Organization,Team Member 4,Organization,0
+42,2.Identify the team,Contact Info,Team Member 4,Contact Info,0
+43,2.Identify the team,Name,Team Member 5,Name,0
+44,2.Identify the team,Title,Team Member 5,Title,0
+45,2.Identify the team,Organization,Team Member 5,Organization,0
+46,2.Identify the team,Contact Info,Team Member 5,Contact Info,0
+47,2.Identify the team,Name,Team Member 6,Name,0
+48,2.Identify the team,Title,Team Member 6,Title,0
+49,2.Identify the team,Organization,Team Member 6,Organization,0
+50,2.Identify the team,Contact Info,Team Member 6,Contact Info,0
+51,2.Identify the team,Name,Team Member 7,Name,0
+52,2.Identify the team,Title,Team Member 7,Title,0
+53,2.Identify the team,Organization,Team Member 7,Organization,0
+54,2.Identify the team,Contact Info,Team Member 7,Contact Info,0
+55,2.Identify the team,Name,Team Member 8,Name,0
+56,2.Identify the team,Title,Team Member 8,Title,0
+57,2.Identify the team,Organization,Team Member 8,Organization,0
+58,2.Identify the team,Contact Info,Team Member 8,Contact Info,0
+59,2.Identify the team,Name,Team Member 9,Name,0
+60,2.Identify the team,Title,Team Member 9,Title,0
+61,2.Identify the team,Organization,Team Member 9,Organization,0
+62,2.Identify the team,Contact Info,Team Member 9,Contact Info,0
+63,2.Identify the team,Name,Team Member 10,Name,0
+64,2.Identify the team,Title,Team Member 10,Title,0
+65,2.Identify the team,Organization,Team Member 10,Organization,0
+66,2.Identify the team,Contact Info,Team Member 10,Contact Info,0
+67,2.Identify the team,Name,Team Member 11,Name,0
+68,2.Identify the team,Title,Team Member 11,Title,0
+69,2.Identify the team,Organization,Team Member 11,Organization,0
+70,2.Identify the team,Contact Info,Team Member 11,Contact Info,0
+71,2.Identify the team,Name,Team Member 12,Name,0
+72,2.Identify the team,Title,Team Member 12,Title,0
+73,2.Identify the team,Organization,Team Member 12,Organization,0
+74,2.Identify the team,Contact Info,Team Member 12,Contact Info,0
+75,2.Identify the team,Name,Team Member 13,Name,0
+76,2.Identify the team,Title,Team Member 13,Title,0
+77,2.Identify the team,Organization,Team Member 13,Organization,0
+78,2.Identify the team,Contact Info,Team Member 13,Contact Info,0
+79,2.Identify the team,Name,Team Member 14,Name,0
+80,2.Identify the team,Title,Team Member 14,Title,0
+81,2.Identify the team,Organization,Team Member 14,Organization,0
+82,2.Identify the team,Contact Info,Team Member 14,Contact Info,0
+83,3.Containment and Immediate Action,Details of Containment Action Taken,At Customer,Details,0
+84,3.Containment and Immediate Action,Details of Containment Action Taken,Acutec WIP,Details,0
+85,3.Containment and Immediate Action,Details of Containment Action Taken,Acutec Stock,Details,0
+86,3.Containment and Immediate Action,Details of Containment Action Taken,At Supplier,Details,0
+87,3.Containment and Immediate Action,Details of Containment Action Taken,In Transit,Details,0
+88,3.Containment and Immediate Action,Details of Containment Action Taken,Consignment,Details,0
+89,3.Containment and Immediate Action,Details of Containment Action Taken,Distributor,Details,0
+90,3.Containment and Immediate Action,Details of Containment Action Taken,Enter Location,Details,0
+91,3.Containment and Immediate Action,Details of Containment Action Taken,Enter Location,Details,0
+92,3.Containment and Immediate Action,Details of Containment Action Taken,Enter Location,Details,0
+93,3.Containment and Immediate Action,Details of Containment Action Taken,Enter Location,Details,0
+94,3.Containment and Immediate Action,Potential Areas Affected,At Customer,Yes,FALSE
+95,3.Containment and Immediate Action,Potential Areas Affected,Acutec WIP,Yes,FALSE
+96,3.Containment and Immediate Action,Potential Areas Affected,Acutec Stock,Yes,FALSE
+97,3.Containment and Immediate Action,Potential Areas Affected,At Supplier,Yes,FALSE
+98,3.Containment and Immediate Action,Potential Areas Affected,In Transit,Yes,FALSE
+99,3.Containment and Immediate Action,Potential Areas Affected,Consignment,Yes,FALSE
+100,3.Containment and Immediate Action,Potential Areas Affected,Distributor,Yes,FALSE
+101,3.Containment and Immediate Action,Potential Areas Affected,Enter Location,Yes,FALSE
+102,3.Containment and Immediate Action,Potential Areas Affected,Enter Location,Yes,FALSE
+103,3.Containment and Immediate Action,Potential Areas Affected,Enter Location,Yes,FALSE
+104,3.Containment and Immediate Action,Potential Areas Affected,Enter Location,Yes,FALSE
+105,3.Containment and Immediate Action,Potential Areas Affected,At Customer,No,FALSE
+106,3.Containment and Immediate Action,Potential Areas Affected,Acutec WIP,No,FALSE
+107,3.Containment and Immediate Action,Potential Areas Affected,Acutec Stock,No,FALSE
+108,3.Containment and Immediate Action,Potential Areas Affected,At Supplier,No,FALSE
+109,3.Containment and Immediate Action,Potential Areas Affected,In Transit,No,FALSE
+110,3.Containment and Immediate Action,Potential Areas Affected,Consignment,No,FALSE
+111,3.Containment and Immediate Action,Potential Areas Affected,Distributor,No,FALSE
+112,3.Containment and Immediate Action,Potential Areas Affected,Enter Location,No,FALSE
+113,3.Containment and Immediate Action,Potential Areas Affected,Enter Location,No,FALSE
+114,3.Containment and Immediate Action,Potential Areas Affected,Enter Location,No,FALSE
+115,3.Containment and Immediate Action,Potential Areas Affected,Enter Location,No,FALSE
+116,3.Containment and Immediate Action,Containment Action Quantity,At Customer,Quantity,0
+117,3.Containment and Immediate Action,Containment Action Quantity,Acutec WIP,Quantity,0
+118,3.Containment and Immediate Action,Containment Action Quantity,Acutec Stock,Quantity,0
+119,3.Containment and Immediate Action,Containment Action Quantity,At Supplier,Quantity,0
+120,3.Containment and Immediate Action,Containment Action Quantity,In Transit,Quantity,0
+121,3.Containment and Immediate Action,Containment Action Quantity,Consignment,Quantity,0
+122,3.Containment and Immediate Action,Containment Action Quantity,Distributor,Quantity,0
+123,3.Containment and Immediate Action,Containment Action Quantity,Enter Location,Quantity,0
+124,3.Containment and Immediate Action,Containment Action Quantity,Enter Location,Quantity,0
+125,3.Containment and Immediate Action,Containment Action Quantity,Enter Location,Quantity,0
+126,3.Containment and Immediate Action,Containment Action Quantity,Enter Location,Quantity,0
+127,3.Containment and Immediate Action,Containment Action Taken,At Customer,Action Taken,0
+128,3.Containment and Immediate Action,Containment Action Taken,Acutec WIP,Action Taken,0
+129,3.Containment and Immediate Action,Containment Action Taken,Acutec Stock,Action Taken,0
+130,3.Containment and Immediate Action,Containment Action Taken,At Supplier,Action Taken,0
+131,3.Containment and Immediate Action,Containment Action Taken,In Transit,Action Taken,0
+132,3.Containment and Immediate Action,Containment Action Taken,Consignment,Action Taken,0
+133,3.Containment and Immediate Action,Containment Action Taken,Distributor,Action Taken,0
+134,3.Containment and Immediate Action,Containment Action Taken,Enter Location,Action Taken,0
+135,3.Containment and Immediate Action,Containment Action Taken,Enter Location,Action Taken,0
+136,3.Containment and Immediate Action,Containment Action Taken,Enter Location,Action Taken,0
+137,3.Containment and Immediate Action,Containment Action Taken,Enter Location,Action Taken,0
+138,3.Containment and Immediate Action,Immediate Actions,Action 1,Actions ,0
+139,3.Containment and Immediate Action,Immediate Actions,Action 2,Actions ,0
+140,3.Containment and Immediate Action,Immediate Actions,Action 3,Actions ,0
+141,3.Containment and Immediate Action,Immediate Actions,Action 4,Actions ,0
+142,3.Containment and Immediate Action,Immediate Actions,Action 5,Actions ,0
+143,3.Containment and Immediate Action,Immediate Actions,Action 6,Actions ,0
+144,3.Containment and Immediate Action,Immediate Actions,Action 1,Assigned To,0
+145,3.Containment and Immediate Action,Immediate Actions,Action 2,Assigned To,0
+146,3.Containment and Immediate Action,Immediate Actions,Action 3,Assigned To,0
+147,3.Containment and Immediate Action,Immediate Actions,Action 4,Assigned To,0
+148,3.Containment and Immediate Action,Immediate Actions,Action 5,Assigned To,0
+149,3.Containment and Immediate Action,Immediate Actions,Action 6,Assigned To,0
+150,3.Containment and Immediate Action,Immediate Actions,Action 1,Due Date,1/0/1900
+151,3.Containment and Immediate Action,Immediate Actions,Action 2,Due Date,1/0/1900
+152,3.Containment and Immediate Action,Immediate Actions,Action 3,Due Date,1/0/1900
+153,3.Containment and Immediate Action,Immediate Actions,Action 4,Due Date,1/0/1900
+154,3.Containment and Immediate Action,Immediate Actions,Action 5,Due Date,1/0/1900
+155,3.Containment and Immediate Action,Immediate Actions,Action 6,Due Date,1/0/1900
+156,3.Containment and Immediate Action,Immediate Actions,Action 1,Planned Objective Evidence,0
+157,3.Containment and Immediate Action,Immediate Actions,Action 2,Planned Objective Evidence,0
+158,3.Containment and Immediate Action,Immediate Actions,Action 3,Planned Objective Evidence,0
+159,3.Containment and Immediate Action,Immediate Actions,Action 4,Planned Objective Evidence,0
+160,3.Containment and Immediate Action,Immediate Actions,Action 5,Planned Objective Evidence,0
+161,3.Containment and Immediate Action,Immediate Actions,Action 6,Planned Objective Evidence,0
+162,4.Determine Root Causes,Why Analysis,N/A,Complete,FALSE
+163,4.Determine Root Causes,Why Analysis,N/A,N/A,FALSE
+164,4.Determine Root Causes,Why Analysis,N/A,Attached,FALSE
+165,4.Determine Root Causes,Why Analysis,Specific Nonconformance,Field 1,0
+166,4.Determine Root Causes,Why Analysis,Specific Nonconformance,Field 2,0
+167,4.Determine Root Causes,Why Analysis,Specific Nonconformance,Field 3,0
+168,4.Determine Root Causes,Why Analysis,Specific Nonconformance,Field 4,0
+169,4.Determine Root Causes,Why Analysis,Specific Nonconformance,Final,0
+170,4.Determine Root Causes,Why Analysis,Not Detected,Field 1,0
+171,4.Determine Root Causes,Why Analysis,Not Detected,Field 2,0
+172,4.Determine Root Causes,Why Analysis,Not Detected,Field 3,0
+173,4.Determine Root Causes,Why Analysis,Not Detected,Field 4,0
+174,4.Determine Root Causes,Why Analysis,Not Detected,Final,0
+175,4.Determine Root Causes,Why Analysis,Systemic,Field 1,0
+176,4.Determine Root Causes,Why Analysis,Systemic,Field 2,0
+177,4.Determine Root Causes,Why Analysis,Systemic,Field 3,0
+178,4.Determine Root Causes,Why Analysis,Systemic,Field 4,0
+179,4.Determine Root Causes,Why Analysis,Systemic,Final,0
+180,4.Determine Root Causes,Additional Tools,Cause Effect Diagram,Complete,FALSE
+181,4.Determine Root Causes,Additional Tools,Pareto Chart,Complete,FALSE
+182,4.Determine Root Causes,Additional Tools,Future Expansion 1,Complete,FALSE
+183,4.Determine Root Causes,Additional Tools,Future Expansion 2,Complete,FALSE
+184,4.Determine Root Causes,Additional Tools,Future Expansion 3,Complete,FALSE
+185,4.Determine Root Causes,Additional Tools,Cause Effect Diagram,N/A,FALSE
+186,4.Determine Root Causes,Additional Tools,Pareto Chart,N/A,FALSE
+187,4.Determine Root Causes,Additional Tools,Future Expansion 1,N/A,FALSE
+188,4.Determine Root Causes,Additional Tools,Future Expansion 2,N/A,FALSE
+189,4.Determine Root Causes,Additional Tools,Future Expansion 3,N/A,FALSE
+190,4.Determine Root Causes,Additional Tools,Flow Diagram,N/A,FALSE
+191,4.Determine Root Causes,Additional Tools,Gage R&R,N/A,FALSE
+192,4.Determine Root Causes,Additional Tools,Capability Analysis,N/A,FALSE
+193,4.Determine Root Causes,Additional Tools,Cause Effect Diagram,Attached,FALSE
+194,4.Determine Root Causes,Additional Tools,Pareto Chart,Attached,FALSE
+195,4.Determine Root Causes,Additional Tools,Future Expansion 1,Attached,FALSE
+196,4.Determine Root Causes,Additional Tools,Future Expansion 2,Attached,FALSE
+197,4.Determine Root Causes,Additional Tools,Future Expansion 3,Attached,FALSE
+198,4.Determine Root Causes,Additional Tools,Flow Diagram,Attached,FALSE
+199,4.Determine Root Causes,Additional Tools,Gage R&R,Attached,FALSE
+200,4.Determine Root Causes,Additional Tools,Capability Analysis,Attached,FALSE
+201,4.Determine Root Causes,Cause and Effect,Measurement,Rank,0
+202,4.Determine Root Causes,Cause and Effect,Materials,Rank,0
+203,4.Determine Root Causes,Cause and Effect,Methods,Rank,0
+204,4.Determine Root Causes,Cause and Effect,Environement,Rank,0
+205,4.Determine Root Causes,Cause and Effect,People,Rank,0
+206,4.Determine Root Causes,Cause and Effect,Equipment,Rank,0
+207,4.Determine Root Causes,Pareto,Reason for Nonconformance,Reason 1,0
+208,4.Determine Root Causes,Pareto,Reason for Nonconformance,Reason 2,0
+209,4.Determine Root Causes,Pareto,Reason for Nonconformance,Reason 3,0
+210,4.Determine Root Causes,Pareto,Reason for Nonconformance,Reason 4,0
+211,4.Determine Root Causes,Pareto,Reason for Nonconformance,Reason 5,0
+212,4.Determine Root Causes,Pareto,Reason for Nonconformance,Reason 6,0
+213,4.Determine Root Causes,Pareto,Reason for Nonconformance,Reason 7,0
+214,4.Determine Root Causes,Pareto,Reason for Nonconformance,Other,Other
+215,4.Determine Root Causes,Pareto,Frequency of Nonconformance,Reason 1,0
+216,4.Determine Root Causes,Pareto,Frequency of Nonconformance,Reason 2,0
+217,4.Determine Root Causes,Pareto,Frequency of Nonconformance,Reason 3,0
+218,4.Determine Root Causes,Pareto,Frequency of Nonconformance,Reason 4,0
+219,4.Determine Root Causes,Pareto,Frequency of Nonconformance,Reason 5,0
+220,4.Determine Root Causes,Pareto,Frequency of Nonconformance,Reason 6,0
+221,4.Determine Root Causes,Pareto,Frequency of Nonconformance,Reason 7,0
+222,4.Determine Root Causes,Pareto,Frequency of Nonconformance,Other,0
+223,4.Determine Root Causes,Pareto,Cumulatative Percentage,Reason 1,#DIV/0!
+224,4.Determine Root Causes,Pareto,Cumulatative Percentage,Reason 2,#DIV/0!
+225,4.Determine Root Causes,Pareto,Cumulatative Percentage,Reason 3,#DIV/0!
+226,4.Determine Root Causes,Pareto,Cumulatative Percentage,Reason 4,#DIV/0!
+227,4.Determine Root Causes,Pareto,Cumulatative Percentage,Reason 5,#DIV/0!
+228,4.Determine Root Causes,Pareto,Cumulatative Percentage,Reason 6,#DIV/0!
+229,4.Determine Root Causes,Pareto,Cumulatative Percentage,Reason 7,#DIV/0!
+230,4.Determine Root Causes,Pareto,Cumulatative Percentage,Other,#DIV/0!
+231,4.Determine Root Causes,State Root Causes,Root Cause of Specific Nonconformance,Description,0
+232,4.Determine Root Causes,State Root Causes,Root Cause of Nonconformance,Root Cause Code,0
+233,4.Determine Root Causes,State Root Causes,Root Cause the Defect was not Detected,Description,0
+234,4.Determine Root Causes,State Root Causes,Root Cause the Defect was not Detected,Root Cause Code,0
+235,4.Determine Root Causes,State Root Causes,Root Cause of the Systemic Nonconformance,Description,0
+236,4.Determine Root Causes,State Root Causes,Root Cause of the Systemic Nonconformance,Root Cause Code,0
+237,5.Look Across,Look to see …,Like Parts,Complete,FALSE
+238,5.Look Across,Look to see …,Like Parts,Description,0
+239,5.Look Across,Look to see …,Like Processes,Complete,FALSE
+240,5.Look Across,Look to see …,Like Processes,Description,0
+241,5.Look Across,Look to see …,Like Plants,Complete,FALSE
+242,5.Look Across,Look to see …,Like Plants,Description,0
+243,6.Corrective and Preventive Actions,Document Actions,Action 1,Action,0
+244,6.Corrective and Preventive Actions,Document Actions,Action 1,C,FALSE
+245,6.Corrective and Preventive Actions,Document Actions,Action 1,P,FALSE
+246,6.Corrective and Preventive Actions,Document Actions,Action 1,Assigned To,0
+247,6.Corrective and Preventive Actions,Document Actions,Action 1,Due Date,1/0/1900
+248,6.Corrective and Preventive Actions,Document Actions,Action 1,Planned Objective Evidence,0
+249,6.Corrective and Preventive Actions,Document Actions,Action 1,Corrective Action Code,0
+250,6.Corrective and Preventive Actions,Document Actions,Action 2,Action,0
+251,6.Corrective and Preventive Actions,Document Actions,Action 2,C,FALSE
+252,6.Corrective and Preventive Actions,Document Actions,Action 2,P,FALSE
+253,6.Corrective and Preventive Actions,Document Actions,Action 2,Assigned To,0
+254,6.Corrective and Preventive Actions,Document Actions,Action 2,Due Date,1/0/1900
+255,6.Corrective and Preventive Actions,Document Actions,Action 2,Planned Objective Evidence,0
+256,6.Corrective and Preventive Actions,Document Actions,Action 2,Corrective Action Code,0
+257,6.Corrective and Preventive Actions,Document Actions,Action 3,Action,0
+258,6.Corrective and Preventive Actions,Document Actions,Action 3,C,FALSE
+259,6.Corrective and Preventive Actions,Document Actions,Action 3,P,FALSE
+260,6.Corrective and Preventive Actions,Document Actions,Action 3,Assigned To,0
+261,6.Corrective and Preventive Actions,Document Actions,Action 3,Due Date,1/0/1900
+262,6.Corrective and Preventive Actions,Document Actions,Action 3,Planned Objective Evidence,0
+263,6.Corrective and Preventive Actions,Document Actions,Action 3,Corrective Action Code,0
+264,6.Corrective and Preventive Actions,Document Actions,Action 4,Action,0
+265,6.Corrective and Preventive Actions,Document Actions,Action 4,C,FALSE
+266,6.Corrective and Preventive Actions,Document Actions,Action 4,P,FALSE
+267,6.Corrective and Preventive Actions,Document Actions,Action 4,Assigned To,0
+268,6.Corrective and Preventive Actions,Document Actions,Action 4,Due Date,1/0/1900
+269,6.Corrective and Preventive Actions,Document Actions,Action 4,Planned Objective Evidence,0
+270,6.Corrective and Preventive Actions,Document Actions,Action 4,Corrective Action Code,0
+271,6.Corrective and Preventive Actions,Document Actions,Action 5,Action,0
+272,6.Corrective and Preventive Actions,Document Actions,Action 5,C,FALSE
+273,6.Corrective and Preventive Actions,Document Actions,Action 5,P,FALSE
+274,6.Corrective and Preventive Actions,Document Actions,Action 5,Assigned To,0
+275,6.Corrective and Preventive Actions,Document Actions,Action 5,Due Date,1/0/1900
+276,6.Corrective and Preventive Actions,Document Actions,Action 5,Planned Objective Evidence,0
+277,6.Corrective and Preventive Actions,Document Actions,Action 5,Corrective Action Code,0
+278,6.Corrective and Preventive Actions,Review and Update,Drawing/Print,Updated,FALSE
+279,6.Corrective and Preventive Actions,Review and Update,Drawing/Print,N/A,FALSE
+280,6.Corrective and Preventive Actions,Review and Update,Inspection Plan,Updated,FALSE
+281,6.Corrective and Preventive Actions,Review and Update,Inspection Plan,N/A,FALSE
+282,6.Corrective and Preventive Actions,Review and Update,Router,Updated,FALSE
+283,6.Corrective and Preventive Actions,Review and Update,Router,N/A,FALSE
+284,6.Corrective and Preventive Actions,Review and Update,Batch Card,Updated,FALSE
+285,6.Corrective and Preventive Actions,Review and Update,Batch Card,N/A,FALSE
+286,6.Corrective and Preventive Actions,Review and Update,Process Control Plan,Updated,FALSE
+287,6.Corrective and Preventive Actions,Review and Update,Process Control Plan,N/A,FALSE
+288,6.Corrective and Preventive Actions,Review and Update,PFMEA,Updated,FALSE
+289,6.Corrective and Preventive Actions,Review and Update,PFMEA,N/A,FALSE
+290,6.Corrective and Preventive Actions,Review and Update,Test Instruction,Updated,FALSE
+291,6.Corrective and Preventive Actions,Review and Update,Test Instruction,N/A,FALSE
+292,6.Corrective and Preventive Actions,Review and Update,Work Instruction,Updated,FALSE
+293,6.Corrective and Preventive Actions,Review and Update,Work Instruction,N/A,FALSE
+294,6.Corrective and Preventive Actions,Review and Update,Operating Procedure,Updated,FALSE
+295,6.Corrective and Preventive Actions,Review and Update,Operating Procedure,N/A,FALSE
+296,6.Corrective and Preventive Actions,Review and Update,Process Flow Diagram,Updated,FALSE
+297,6.Corrective and Preventive Actions,Review and Update,Process Flow Diagram,N/A,FALSE
+298,6.Corrective and Preventive Actions,Review and Update,PPAP,Updated,FALSE
+299,6.Corrective and Preventive Actions,Review and Update,PPAP,N/A,FALSE
+300,6.Corrective and Preventive Actions,Review and Update,Frozen Planning,Updated,FALSE
+301,6.Corrective and Preventive Actions,Review and Update,Frozen Planning,N/A,FALSE
+302,6.Corrective and Preventive Actions,Review and Update,First Article,Updated,FALSE
+303,6.Corrective and Preventive Actions,Review and Update,First Article,N/A,FALSE
+304,6.Corrective and Preventive Actions,Review and Update,Other Document 1,Updated,FALSE
+305,6.Corrective and Preventive Actions,Review and Update,Other Document 1,N/A,FALSE
+306,6.Corrective and Preventive Actions,Review and Update,Other Document 2,Updated,FALSE
+307,6.Corrective and Preventive Actions,Review and Update,Other Document 2,N/A,FALSE
+308,6.Corrective and Preventive Actions,Review and Update,Manufacturing Procedure/Instruction,Updated,FALSE
+309,6.Corrective and Preventive Actions,Review and Update,Manufacturing Procedure/Instruction,N/A,FALSE
+310,7.Verify the Solution,Document Actions,Action 1,Action,0
+311,7.Verify the Solution,Document Actions,Action 1,Assigned To,0
+312,7.Verify the Solution,Document Actions,Action 1,Due Date,1/0/1900
+313,7.Verify the Solution,Document Actions,Action 2,Action,0
+314,7.Verify the Solution,Document Actions,Action 2,Assigned To,0
+315,7.Verify the Solution,Document Actions,Action 2,Due Date,1/0/1900
+316,7.Verify the Solution,Document Actions,Action 3,Action,0
+317,7.Verify the Solution,Document Actions,Action 3,Assigned To,0
+318,7.Verify the Solution,Document Actions,Action 3,Due Date,1/0/1900
+319,7.Verify the Solution,Document Actions,Action 4,Action,0
+320,7.Verify the Solution,Document Actions,Action 4,Assigned To,0
+321,7.Verify the Solution,Document Actions,Action 4,Due Date,1/0/1900
+322,7.Verify the Solution,Document Actions,Action 5,Action,0
+323,7.Verify the Solution,Document Actions,Action 5,Assigned To,0
+324,7.Verify the Solution,Document Actions,Action 5,Due Date,1/0/1900
+325,8.Obtain Approval and Support,Approvals,Team Leader,Signature,0
+326,8.Obtain Approval and Support,Approvals,Team Leader,Date,1/0/1900
+327,8.Obtain Approval and Support,Approvals,Team Leader,Contact Info,0
+328,8.Obtain Approval and Support,Approvals,Quality Manager,Signature,0
+329,8.Obtain Approval and Support,Approvals,Quality Manager,Date,1/0/1900
+330,8.Obtain Approval and Support,Approvals,Quality Manager,Contact Info,0
+331,8.Obtain Approval and Support,Approvals,Additional Approval,Signature,0
+332,8.Obtain Approval and Support,Approvals,Additional Approval,Date,1/0/1900
+333,8.Obtain Approval and Support,Approvals,Additional Approval,Contact Info,0
