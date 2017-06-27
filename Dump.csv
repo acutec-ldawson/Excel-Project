@@ -1,4 +1,5 @@
 ID,Area,Header,Group,Description,Value
+0,0.Identification,Unique Form ID,N/A,Unique Identifier to this form,
 1,0.Preliminary,Organization,N/A,Organization,Acutec
 2,0.Preliminary,Customer,N/A,Customer,0
 3,0.Preliminary,ACUTEC Notification #,N/A,ACUTEC Notification #,0
@@ -16,8 +17,8 @@ ID,Area,Header,Group,Description,Value
 15,1.Define the problem,IS Complete,N/A,IS Complete,FALSE
 16,1.Define the problem,IS N/A,N/A,IS N/A,FALSE
 17,1.Define the problem,Project Title/Theme,N/A,Project Title/Theme,0
-18,1.Define the problem,Clarify the Problem,N/A,Where was the nonconformance discovered?,ACUTEC Customer
-19,1.Define the problem,Historical Data,N/A,Is this a repeat issue?,Unknown
+18,1.Define the problem,Clarify the Problem,N/A,Where was the nonconformance discovered?,
+19,1.Define the problem,Historical Data,N/A,Is this a repeat issue?,
 20,1.Define the problem,Describe the Problem,N/A,Requirement,0
 21,1.Define the problem,Describe the Problem,N/A,Nonconformance,0
 22,1.Define the problem,Describe the Problem,N/A,Objective Evidence,0
