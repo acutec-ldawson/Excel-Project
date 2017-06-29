@@ -12,16 +12,15 @@ namespace ExcelLibraryTester
     {
         static void Main(string[] args)
         {
-            string filePath = @"C:\ExcelTesting\Testdoc.xlsx";
-            CellFinderTest(filePath);
-            CaptureTest(filePath);
+            string filePath = @"\\acutec.local\Acutec\Network\User Folders\ldawson\Desktop\Excel-Project\NC Documents\Dump.csv";
+            CsvParserTest(filePath);
             Console.Read();
         }
         static void CsvTest(string filePath) {
             ExcelReader reader = new ExcelReader(filePath);
             try
             {
-                reader.toCSV();
+                reader.WorksheetToCSV("Dump");
                 Console.WriteLine("CSV file made successfully");
             }
             catch (Exception e)
@@ -31,18 +30,9 @@ namespace ExcelLibraryTester
         }
         static void CellFinderTest(string filePath) {
             ExcelReader reader = new ExcelReader(filePath);
-            iVector2[] cords = reader.findCells("Sheet1", "Apple");
+            iVector2[] cords = reader.findCells("LOP-053f1", "&&&");
             foreach (iVector2 cord in cords) {
                 Console.WriteLine(cord.ToString());
-            }
-            Cell[] table = reader.captureCells(cords, "Sheet1");
-            foreach (Cell c in table) {
-                Console.WriteLine(c.stringValue);
-            }
-            string[] msgs = reader.printCells(cords, "Sheet1");
-            foreach (string s in msgs)
-            {
-                Console.WriteLine(s);
             }
             reader.Close();
         }
@@ -53,6 +43,16 @@ namespace ExcelLibraryTester
             foreach (Cell c in table)
             {
                 Console.WriteLine(c.stringValue);
+            }
+        }
+        static void CsvParserTest(string _filepath) {
+            CSVReader csvReader = new CSVReader(_filepath);
+            csvReader.Parse();
+            string[] values = csvReader.ReturnValues();
+            int[] ids = csvReader.ReturnIDs();
+            foreach (int i in ids) {
+                string s = String.Format("ID:{0} VALUE:{1}", i, values[i]);
+                Console.WriteLine(s);
             }
         }
     }
