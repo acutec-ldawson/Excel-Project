@@ -1,0 +1,162 @@
+Origination:
+	Fields ...
+		NC No:3
+		Status:
+		NC Date:9
+		Manager:
+		NC Type:
+		Material:6
+		Description:
+		Drawing:
+		Total Qty:
+		Inspected Qty:
+		Priority:
+		RMA:
+		Dept:
+		Cust:2
+		Due Date:10
+		Div:
+		Job:5
+		Rev:
+		Lot:7
+		Reference:4
+		Rejected Qty:13
+		Location:
+		Class:
+		Sales Order:
+		Customer PO:12
+		Packlist:
+		Serial:8
+		Origin Hrs:
+		Origin Date:
+		Origination Complete (Checkbox):
+	Tasks ...
+		Describe Discrepancy:19,20,21
+		Describe Inspection Method:?? (QE's Find Needless)
+		Review/Quarantine Active Orders:?? 
+		{Add} ??? Review/Quarantine Consignment:87,98,109,120,131
+		{Add} ??? Review/Quarantine Distributor:88,99,110,121,132
+		Review/Quarantine At Supplier:85,96,107,118,129
+		Review/Quarantine Product At Customer:82,93,104,115,126
+		Review/Quarantine Product In Transit:86,97,108,119,130
+		Review/Quarantine Stockroom:84,95,106,117,128 {??? Acutec Stock ???}
+		Review/Quarantine WIP:83,94,105,116,127
+		{Add} Review/Quarantine Bonus1:89,100,111,122,133
+		{Add} Review/Quarantine Bonus2:90,101,112,123,134
+		{Add} Review/Quarantine Bonus3:91,102,113,124,135
+		{Add} Review/Quarantine Bonus4:92,103,114,125,136
+
+			Whats in a Task? ...
+				Task Description:
+				Sequence:
+				Assigned To:
+				Assigned Date:
+				Reference Type:
+				Task ID:
+				Due Date:			
+				Reference:
+				Std. Text:
+				Notes:
+				Task Hours:
+				Complete Date:
+				Complete (CheckBox):
+Investigation:
+	Fields ...
+		Status:
+		Description:
+		Origin:
+		Origin Ref:
+		Cause:
+		Category:
+		Request CPA (Button):
+		CPA's:
+		Inv Hrs:
+		Inv Date:
+		Inv Complete (Checkbox):
+	Tasks ...
+		Audit Internal Product:
+		Determine Root Caused Event:230,231,232
+		Issue RMA: {Suggested As Redundant}
+		Return Status Follow Up:
+		Receive in Returned Material:
+		Generate Return Router:
+		Audit Returned Material:
+		
+			Whats in a Task? ...
+				Task Description:
+				Sequence:
+				Assigned To:
+				Assigned Date:
+				Reference Type:
+				Task ID:
+				Due Date:			
+				Reference:
+				Std. Text:
+				Notes:
+				Task Hours:
+				Complete Date:
+				Complete (CheckBox):
+Disposition:
+	Fields ...
+		Disposition:
+		Status:
+		Description:
+		Scrap Qty:
+		Rework Qty:
+		Return Qty:
+		Use As Is Qty:
+		Est. Rework Hrs:
+		Est. Rework Cost:
+		Rework Job No:
+		WC:
+		Act. Rework Hrs:
+		Act. Rework Cost:
+		Scrap Material Cost:
+		Disposition Hrs:
+		Disp. Date:
+		Disp Complete (Checkbox):
+	Tasks ...
+		Disposition:
+
+			Whats in a Task? ...
+				Task Description:
+				Sequence:
+				Assigned To:
+				Assigned Date:
+				Reference Type:
+				Task ID:
+				Due Date:			
+				Reference:
+				Std. Text:
+				Notes:
+				Task Hours:
+				Complete Date:
+				Complete (CheckBox):
+Accounting:
+	Fields ...
+		Description:
+		Std. Text:
+		(Customer Fields)
+		Customer:
+		Customer Action:
+		Original Invoice:
+		Credit Memo:
+		(Vendor Fields)
+		Vendor:
+		Vendor Action:
+		Original invoice:
+		Credit Memo:
+		Accounting Notes:
+		Accounting Hrs:
+		Accounting Intervention Required (Checkbox):
+		Accounting Inverventionm Complete (Checkbox):
+
+Attachments:
+	Fields ...
+		Type:
+		Path:
+		Description:
+
+	(Need to add in path to folder with NC on U:Drive)
+	{U:\Quality Assurance\Corrective Actions\NC Documents\[NC#,Cust?,Job#-Lot#?,Job#?,NC Reason?]}
+		(Only NC# required, the rest is diff of QE)

@@ -1,0 +1,15 @@
+Unipoint(Reference) - Cust Comp/Notif
+Acutec Part# = Job
+Cust Part# = Material
+Add in defect codes at nonconformance
+NonC = describe discrepancy
+_____________________________________________________________________________
+In NC Orig. Notes. - Neither finds it necessary to specify the inspection method explicitly
+
+In CPA Investigation notes most correspond to either the 5-why or other forms. 
+	We can likely compress the C/E note fields, Whys, and Root Causes all into a single note.
+
+Immediate Actions don't seem to have a spot in either NC or CPA.
+
+The Issue RMA note in the NC Investigation tab is redundant with the checkbox on Origination.
+
