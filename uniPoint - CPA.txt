@@ -1,0 +1,99 @@
+Origination:
+	Fields ...
+		Status:
+		Priority:
+		CPA Date:11
+		Manager:
+		Dept:
+		Division:
+		Type:
+		Category:
+		Source:
+		Description:
+		Customer:2
+		Assigned To:
+		Sched Completion:
+		Vendor:
+		Origin Hrs:
+	Tasks ...
+		Establish Team: 22 - 81
+		Current Routing Notes:
+		Confirm APQP Requirements:
+		Send Drawing/Process Requirements:
+		Confirm Supplier Acceptance:
+		Critical To Quality Features:
+		Supplier Assessment:
+		Supplier Info:
+		Supplier Quality Assessment:
+		Inspection Methods:
+		Review:
+		Supplier Subcontract Processors:
+		Verify No Rejection:
+			Whats in a Task? ...
+				Task Description:
+				Sequence:
+				Assigned To:
+				Assigned Date:
+				Reference Type:
+				Task ID:
+				Due Date:			
+				Reference:
+				Std. Text:
+				Notes:
+				Task Hours:
+				Complete Date:
+				Complete (CheckBox):
+Investigation:
+	Fields ...
+		Status:
+		Description:
+		Origin:
+		Origin Ref:
+		Cause:
+		Category:
+		CPA's:
+		Inv Hrs:
+		Inv. Date:
+		Inv. Complete(Checkbox):
+
+Action Plan:
+	Fields ...
+		Status:
+		Description:
+		Action Hrs:
+		Action Date:
+		Action Plan Complete(Checkbox):
+
+Verification:
+	Fields ...
+		Status:
+		Description:
+		[Findings]
+			Action Implemented(Checkbox):
+			Action Effective(Checkbox):
+		Verif. Hrs:
+		Verif. Date:
+		Verif. Complete(Checkbox):
+
+Reviews:
+	Fields ...
+		Description:
+		Assigned To:
+		Next Date:
+		Comp. Date: {Completion?}
+		Status:	
+		Comp By:
+		Status Filter:
+		
+Accounting:
+	Fields ...
+		Description:
+		
+Attachments:
+	Fields ...
+		Type:
+		Path:
+		Description:
+	Attachments ...
+		{Corresponding}NC:
+		
