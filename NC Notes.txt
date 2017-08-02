@@ -1,0 +1,104 @@
+Accounting Hours: 0
+Accounting Notes:
+Acc Action Customer:
+Acc Action Vendor:
+Acc Customer:
+Acc Vendor:
+Act Rework Hrs: 0
+Act Rework Labor Cost: 0
+AI Complete: False
+AI Required: True
+Class:
+Close Date:
+Costs Updated: False
+CPA No:
+CPA Requested: False
+CPA Requested By:
+Credit Memo Customer:
+Credit Memo Vendor:
+Customer:
+Customer PO:
+Department:
+Description:
+Disposition:
+Disposition by:
+Disposition_complete: False
+Disposition_date:
+Disposition_hrs: 0
+Disposition_notes:
+Disp_Job:
+Disp_Jobop:
+Disp_WC:
+Division:
+Drawing:
+Due_Date:
+ErpSource:
+ErpSourceId:
+Est_rework_hrs: 0
+Est_Rework_labor_cost: 0
+Ext_desc:
+Inspection_by:
+Inspection_date:
+Investigated_by:
+Investigation_complete: False
+Investigation_date:
+Investigation_hrs: 0
+Investigation_notes:
+Job:
+Job Notes Updated: False
+Line:
+Location:
+Lot:
+Manager: LDAWSON
+Material:
+NCR: 20253
+NCR Date: 7/28/2017 12:00:00 AM
+NC Notes:
+NC Processing Cost: 0
+NC type: Customer
+Notes:
+Operation:
+Origin:
+Originated by: LDAWSON
+Originated Complete: False
+Origninated Date:
+Originated Hrs: 0
+Origin Category:
+Origin Cause:
+Origin Ref:
+Orig Invoice Customer:
+Orig Invoice Vendor:
+Other Desc:
+Packlist C:
+Packlit V:
+PO:
+PO Detail:
+Priority: 5
+Qty Inspected:
+Qty Rejected:
+Qty Return:
+Qty Rework:
+Qty Scrap:
+Qty Total:
+Qty UseAsIs:
+Reference:
+Rev:
+RMA: False
+RMA No:
+RMA Return Address:
+RMA Authorized by:
+RMA Notes:
+Sales Order:
+Sample Qty:
+Sample Rejected:
+Scrap Cost: 0
+Serial:
+SO Detail:
+Status: Origination
+Vendor:
+Verification Complete: False
+Verif Date:
+Verif Hrs: 0
+Verif Notes:
+Verified by:
+Work Center:
